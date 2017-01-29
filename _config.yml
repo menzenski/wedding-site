@@ -10,8 +10,12 @@ description: |
 owner: Matt Menzenski # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: matt.menzenski@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/wedding" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# for maps
+google_api_key: AIzaSyAHUv8OUBCxzbPrj27mjhi_fmu5RMDNs8A
+
 social:
   twitter: https://twitter.com/menzenski
   github: https://github.com/menzenski
