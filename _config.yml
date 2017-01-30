@@ -16,6 +16,10 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 # for maps
 google_api_key: AIzaSyAHUv8OUBCxzbPrj27mjhi_fmu5RMDNs8A
 
+address:
+  - line: Centennial Park parking, Lawrence, Kansas
+  - line:
+
 social:
   twitter: https://twitter.com/menzenski
   github: https://github.com/menzenski

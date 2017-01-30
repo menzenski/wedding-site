@@ -1832,3 +1832,18 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+
+  .map {
+    height: 500px;
+  }
+
+  @media(max-width:768px) {
+    .map {
+      height: 75%;
+    }
+  }
+
+  /*disable custom maps scrolling behaviour*/
+  .scrolloff {
+    pointer-events: none;
+  }
