@@ -10,15 +10,14 @@ description: |
 owner: Matt Menzenski # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: matt.menzenski@gmail.com
-baseurl: "/wedding" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # for maps
 google_api_key: AIzaSyAHUv8OUBCxzbPrj27mjhi_fmu5RMDNs8A
 
 address:
-  - line: Centennial Park parking, Lawrence, Kansas
-  - line:
+  - line: "Centennial Park parking, Lawrence, Kansas"
 
 social:
   #twitter: https://twitter.com/menzenski
