@@ -501,6 +501,18 @@ $baseurl: '{{ site.baseurl }}/images';
 		&.style3 {
 			color: _palette(accent4, bg);
 		}
+
+		&.style5 {
+			color: _palette(accent5, bg);
+		}
+
+		&.style6 {
+			color: _palette(accent6, bg);
+		}
+
+		&.style7 {
+			color: _palette(accent7, bg);
+		}
 	}
 
 /* Image */

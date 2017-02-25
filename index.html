@@ -1,68 +1,34 @@
 ---
 layout: landing
 ---
-  <!-- Banner -->
-    <section id="banner">
-      <div class="inner">
-        <h2>{{ site.title }}</h2>
-        <p>{{ site.description | markdownify }}</p>
-      </div>
-      <a href="#intro" class="more scrolly">Details</a>
-    </section>
+<section id="banner">
+  <div class="inner">
+    <h2>{{ site.title }}</h2>
+    <p>{{ site.description | markdownify }}</p>
+  </div>
+  <a href="#intro" class="more scrolly">Details</a>
+</section>
 
-  <!-- One -->
-    <section id="intro" class="wrapper style1 special">
-    {% include sections/intro.html %}
-    </section>
+<section id="intro" class="wrapper style1 special">
+  {% include sections/intro.html %}
+</section>
 
-  <!-- Two -->
-    <section id="couple" class="wrapper alt style2">
-    {% include sections/couple.html %}
-    </section>
+<section id="couple" class="wrapper alt style2">
+{% include sections/couple.html %}
+</section>
 
-  <!-- Three -->
-    <section id="location" class="wrapper style3 special">
-      {% include sections/location.html %}
-    </section>
+<section id="location" class="wrapper style4">
+  {% include sections/location.html %}
+</section>
 
-  <!-- Four -->
-    <section id="four" class="wrapper style3 special">
-      <div class="inner">
-        <header class="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
-          <p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-          fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-        </header>
-        <ul class="features">
-          <li class="icon fa-paper-plane-o">
-            <h3>Arcu accumsan</h3>
-            <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-          </li>
-          <li class="icon fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-          </li>
-          <li class="icon fa-code">
-            <h3>Mus Scelerisque</h3>
-            <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-          </li>
-          <li class="icon fa-headphones">
-            <h3>Mauris Imperdiet</h3>
-            <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-          </li>
-          <li class="icon fa-heart-o">
-            <h3>Aenean Primis</h3>
-            <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-          </li>
-          <li class="icon fa-flag-o">
-            <h3>Tortor Ut</h3>
-            <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
+<section id="lodging" class="wrapper style2 special">
+  {% include sections/lodging.html %}
+</section>
 
-  <!-- CTA -->
-    <section id="rsvp" class="wrapper style4">
-      {% include sections/rsvp.html %}
-    </section>
+<section id="party" class="wrapper style3 special">
+  {% include sections/weddingparty.html %}
+</section>
+
+<section id="cta" class="wrapper style4">
+  {% include sections/rsvp.html %}
+</section>
