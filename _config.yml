@@ -10,36 +10,15 @@ description: |
 owner: Matt Menzenski # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: matt.menzenski@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://wedding.menzenski.com" # the base hostname & protocol for your site
+baseurl: "/wedding" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # for maps
-# google_api_key: AIzaSyAHUv8OUBCxzbPrj27mjhi_fmu5RMDNs8A
-#
-#address:
-#  - line: Centennial Park parking, Lawrence, Kansas
-#  - line:
+google_api_key: AIzaSyAHUv8OUBCxzbPrj27mjhi_fmu5RMDNs8A
 
-# for jekyll-mapping plugin
-mapping:
-  provider: google_js
-  api_key: AIzaSyAHUv8OUBCxzbPrj27mjhi_fmu5RMDNs8A
-  locations:
-    - title: "Centennial Park"
-      latitude: 38.9683286
-      longitude: -95.2640766
-    - title: "Quality Inn Lawrence — University Area"
-      link: "https://www.choicehotels.com/kansas/lawrence/quality-inn-hotels/ks082"
-      latitude: 38.9690492
-      longitude: -95.2633097
-    - title: "Baymont Inn & Suites — Lawrence"
-      link: "https://www.wyndhamhotels.com/baymont/lawrence-kansas/baymont-inn-and-suites-lawrence/overview"
-      latitude: 38.9697161
-      longitude: -95.2618585
-    - title: "Hampton Inn Lawrence"
-      link: "http://hamptoninn3.hilton.com/en/hotels/kansas/hampton-inn-lawrence-LWRKSHX/index.html"
-      latitude: 38.9726192
-      longitude: -95.2657927
+address:
+  - line: Centennial Park parking, Lawrence, Kansas
+  - line:
 
 social:
   #twitter: https://twitter.com/menzenski
