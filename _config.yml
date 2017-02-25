@@ -21,7 +21,7 @@ address:
   - line:
 
 social:
-  twitter: https://twitter.com/menzenski
+  #twitter: https://twitter.com/menzenski
   github: https://github.com/menzenski
   #linkedin-square: https://linkedin.com/in/<username>
   #facebook-official: https://facebook.com/<username>
