@@ -305,7 +305,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&:focus {
-			box-shadow: 0 0 0 2px _palette(mmAccent1, bg);
+			box-shadow: 0 0 0 2px _palette(accent1, bg);
 		}
 	}
 
@@ -390,7 +390,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&:focus + label {
 			&:before {
-				box-shadow: 0 0 0 2px _palette(mmAccent1, bg);
+				box-shadow: 0 0 0 2px _palette(accent1, bg);
 			}
 		}
 	}
