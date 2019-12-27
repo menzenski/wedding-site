@@ -1817,7 +1817,13 @@ $baseurl: '{{ site.baseurl }}/images';
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			padding-top: 0;
+      padding-top: 0;
+
+      min-height: 100%;
+      min-width: 100%;
+
+      width: 100vw;
+      height: 100vh;
 		}
 
 		#footer {
@@ -1836,7 +1842,12 @@ $baseurl: '{{ site.baseurl }}/images';
 				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
-				background-size: cover;
+        background-size: cover;
+
+        min-height: 100%;
+        min-width: 100%;
+        width: 100vw;
+        height: 100vh;
 			}
 
 			#footer {
